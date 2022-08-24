@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(0, 152, 247, 0.507);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(241, 22, 18, 0.514), rgba(0, 152, 247, 0.466)),url(../img/torre2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(241, 22, 18, 0.521), rgba(0, 152, 247, 0.432)), url(../img/torre2.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: grid;
+    place-content: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 20px 0;
+    text-align: center;
+    color: #dfd7d7;
+}
+
+.pBtn {
+    text-align: center;
+    margin: 30px 0;
+    color: #dfd7d7;
+}
+
+.pBtn p {
+    font-size: 30px;
+    margin: 40px;
+}
+
+#btn {
+    padding: 15px 25px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#btn:hover {
+    background-color: rgb(212, 176, 14);
+    transition: all .3s;
+}
+
